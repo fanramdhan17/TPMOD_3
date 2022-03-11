@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace tpmodul3_1302204038
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            KodePos kode = new KodePos();
+            Console.WriteLine();
+            kode.getKodePos();
+        }
+    }
+}
